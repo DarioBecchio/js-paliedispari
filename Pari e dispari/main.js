@@ -11,7 +11,7 @@ Dichiariamo chi ha vinto.
   
 //Creo una costante con un prompt che chiede di scegliere pari o dispari
 
-const user_choice = prompt ('Scrivi uno tra pari o dispari');
+const user_choice = prompt ('Scegli uno tra pari e dispari');
  if (user_choice === 'pari'){
     console.log('Hai scelto pari');
     let computer_choice_1 = ('dispari')
@@ -56,7 +56,9 @@ function playTheGame(sum) {
 if (playTheGame(sum) === user_choice){
 
     console.log('Hai vinto');
+} else {
+    console.log('Hai perso');
 }
 
-console.log('Hai perso');
+
 
